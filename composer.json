@@ -1,0 +1,31 @@
+{
+    "name": "odolbeau/satis-api",
+    "description": "A simple API for satis.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Olivier Dolbeau",
+            "email": "contact@odolbeau.fr"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Bab\\SatisApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Bab\\SatisApi\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "composer/satis": "dev-master",
+        "symfony/symfony": "^3.2",
+        "symfony/dotenv": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "friendsofphp/php-cs-fixer": "^2.0"
+    }
+}

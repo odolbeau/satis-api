@@ -1,0 +1,8 @@
+/vendor/
+/var/cache/
+!/var/cache/.gitkeep
+/var/logs/
+!/var/logs/.gitkeep
+/web/
+/web/index.php
+/.env

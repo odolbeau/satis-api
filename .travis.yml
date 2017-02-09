@@ -1,0 +1,12 @@
+language: php
+
+php: [7.0, hhvm]
+
+cache:
+    directories:
+        - $HOME/.composer/cache
+
+install:
+    - composer --prefer-source update
+
+script: vendor/bin/phpunit
