@@ -12,3 +12,7 @@ The app requires PHP 7.0+.
 ## Tests
 
 To launch tests, simply run `vendor/bin/phpunit`.
+
+## License
+
+This project is released under the MIT License. See the bundled LICENSE file for details.
