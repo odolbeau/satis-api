@@ -2,8 +2,6 @@
 
 namespace Bab\SatisApi;
 
-use Composer\Satis\Builder\WebBuilder;
-use Symfony\Component\Console\Output\NullOutput;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 
