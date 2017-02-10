@@ -10,7 +10,7 @@ class ConfigManagerTest extends TestCase
     public function test_repository()
     {
         $file = sys_get_temp_dir().'/satis.json';
-        unlink($file);
+        @unlink($file);
         putenv('SATIS_REGISTRY_NAME=Satis API tests');
         putenv('SATIS_REGISTRY_HOMEPAGE=https://satis.com');
 
