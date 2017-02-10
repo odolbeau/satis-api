@@ -1,5 +1,7 @@
 # Satis API
 
+[![Build Status](https://travis-ci.org/odolbeau/satis-api.svg?branch=master)](https://travis-ci.org/odolbeau/satis-api)
+
 This project goal is to provide a very simple API in top of Satis.
 
 ## Installation
