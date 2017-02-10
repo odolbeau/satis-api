@@ -6,3 +6,4 @@
 /web/
 /web/index.php
 /.env
+/.php_cs.cache
